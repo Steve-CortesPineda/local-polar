@@ -45,7 +45,7 @@ python -m pip install -q -U pip
 python -m pip install -q -r requirements.txt mlx mlx-lm
 python -c "import mlx_lm" >/dev/null
 
-MODEL="${MLX_MODEL:-mlx-community/Qwen2.5-7B-Instruct-4bit}"
+MODEL="${MLX_MODEL:-mlx-community/Qwen2.5-7B-Instruct-Uncensored-4bit}"
 PORT="${MLX_PORT:-3211}"
 
 echo "Starting mlx_lm server on http://127.0.0.1:${PORT}"
