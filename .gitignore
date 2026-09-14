@@ -1,0 +1,27 @@
+# Secrets / local env
+.env
+.env.local
+*.pem
+*.key
+credentials*
+secrets*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Agent runtime
+studio/runs/
+*.log
+/tmp/local-polar-*
